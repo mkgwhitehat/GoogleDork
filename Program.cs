@@ -62,7 +62,7 @@ class Program
                 if (hasWorksheets)
                 {
                     // Save the workbook only if there are worksheets
-                    string outputPath = "C:\\Users\\manishg\\OneDrive - Instem LSS Ltd\\Desktop\\Dork\\dork.xlsx";
+                    string outputPath = "provide full file path here for excel file";
                     FileInfo fileInfo = new FileInfo(outputPath);
                     package.SaveAs(fileInfo);
 
