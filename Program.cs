@@ -22,7 +22,10 @@ class Program
             string baseUrl = "https://www.google.com/search?q=site:example.com+filetype:";
             List<string> fileTypes = new List<string>
             {
-                "pdf", "sql"
+                "db", "dbf", "mdb", "sql", "bak", "cfg", "config", "csv",
+                "xls", "xlsx", "pdf", "doc", "docx", "ppt", "pptx",
+                "log", "passwd", "shadow", "htpasswd", "htaccess", "ini",
+                "php", "asp", "aspx", "jsp", "json", "xml", "txt", "env"
             };
 
             // Create a new Excel package
