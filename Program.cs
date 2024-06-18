@@ -19,7 +19,7 @@ class Program
         using (IWebDriver driver = new ChromeDriver(options))
         {
             // Define the base URL and file types to search for
-            string baseUrl = "https://www.google.com/search?q=site:ibm.com+filetype:";
+            string baseUrl = "https://www.google.com/search?q=site:example.com+filetype:";
             List<string> fileTypes = new List<string>
             {
                 "pdf", "sql"
